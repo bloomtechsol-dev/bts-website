@@ -50,6 +50,12 @@
 </head>
 <body>
 
+  <!-- PAGE LOADER -->
+  <div id="pageLoader" class="page-loader" aria-hidden="true">
+    <img src="assets/logo.png" alt="BloomTech Solutions" class="page-loader__logo">
+    <div class="page-loader__bar"><div class="page-loader__fill"></div></div>
+  </div>
+
   <!-- NAV -->
   <header class="nav" id="nav" role="banner">
     <div class="container nav__inner">
@@ -269,6 +275,25 @@
     </div>
   </section>
 
+  <!-- TECH PLATFORMS -->
+  <section class="techstack" aria-label="Technology platforms">
+    <div class="container techstack__inner">
+      <p class="techstack__label">Technologies &amp; platforms we work with</p>
+      <div class="techstack__logos">
+        <span class="techstack__badge">AWS</span>
+        <span class="techstack__badge">Microsoft Azure</span>
+        <span class="techstack__badge">Google Cloud</span>
+        <span class="techstack__badge">Salesforce</span>
+        <span class="techstack__badge">ServiceNow</span>
+        <span class="techstack__badge">Workday</span>
+        <span class="techstack__badge">SAP</span>
+        <span class="techstack__badge">Oracle</span>
+        <span class="techstack__badge">Kubernetes</span>
+        <span class="techstack__badge">Terraform</span>
+      </div>
+    </div>
+  </section>
+
   <!-- STATS -->
   <section class="stats" aria-label="Company highlights">
     <div class="container stats__grid">
@@ -397,6 +422,80 @@
     </div>
   </section>
 
+  <!-- INDUSTRIES -->
+  <section class="industries section" id="industries" aria-labelledby="industries-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Industries We Serve</span>
+        <h2 class="section-heading section-heading--light" id="industries-heading">Deep expertise across every sector</h2>
+        <p class="section-sub" style="color:var(--text-muted)">We bring domain knowledge alongside technical depth — so our solutions fit the way your industry actually works.</p>
+      </div>
+      <div class="industries__grid">
+
+        <div class="industry-card">
+          <div class="industry-card__icon industry-card__icon--mint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div>
+            <h3 class="industry-card__title">Healthcare &amp; Life Sciences</h3>
+            <p class="industry-card__sub">EHR integration, compliance automation &amp; clinical data platforms</p>
+          </div>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-card__icon industry-card__icon--amber">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <div>
+            <h3 class="industry-card__title">Financial Services &amp; Fintech</h3>
+            <p class="industry-card__sub">Risk systems, core banking modernization &amp; regulatory reporting</p>
+          </div>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-card__icon industry-card__icon--mint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </div>
+          <div>
+            <h3 class="industry-card__title">Retail &amp; E-Commerce</h3>
+            <p class="industry-card__sub">Omnichannel platforms, inventory intelligence &amp; personalization</p>
+          </div>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-card__icon industry-card__icon--amber">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <div>
+            <h3 class="industry-card__title">Manufacturing &amp; Supply Chain</h3>
+            <p class="industry-card__sub">IoT integration, ERP modernization &amp; predictive maintenance</p>
+          </div>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-card__icon industry-card__icon--mint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"/><line x1="6" y1="18" x2="6" y2="11"/><line x1="10" y1="18" x2="10" y2="11"/><line x1="14" y1="18" x2="14" y2="11"/><line x1="18" y1="18" x2="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>
+          </div>
+          <div>
+            <h3 class="industry-card__title">Government &amp; Public Sector</h3>
+            <p class="industry-card__sub">Secure cloud adoption, legacy modernization &amp; citizen portals</p>
+          </div>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-card__icon industry-card__icon--amber">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1.36 14s.35-3.91 5.08-6.06C8.56 6.83 10.5 6.5 12 6.5s3.44.33 5.56 1.44C22.29 10.09 22.64 14 22.64 14"/><path d="M4.5 17s.24-2.63 3.42-4.07C9.18 12.29 10.57 12 12 12s2.82.29 4.08.93C19.26 14.37 19.5 17 19.5 17"/><circle cx="12" cy="20" r="1"/></svg>
+          </div>
+          <div>
+            <h3 class="industry-card__title">Telecommunications</h3>
+            <p class="industry-card__sub">Network automation, BSS/OSS transformation &amp; 5G enablement</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- CTA BAND -->
   <section class="cta-band" aria-label="Call to action">
     <div class="container cta-band__inner">
@@ -405,6 +504,50 @@
         <p class="cta-band__sub">Whether you need to close a critical technology gap, modernize your infrastructure, or accelerate a digital initiative — BloomTech has the talent and the expertise to make it happen, fast.</p>
       </div>
       <a href="https://wa.me/+14699154848?text=I'd%20like%20to%20chat%20with%20you" class="btn btn--mint cta-band__btn" target="_blank" rel="noopener noreferrer">Talk with an Expert</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section" id="faq" aria-labelledby="faq-heading">
+    <div class="container faq__inner">
+      <div class="section-header">
+        <span class="eyebrow eyebrow--brand">Common Questions</span>
+        <h2 class="section-heading" id="faq-heading">Everything you need to know</h2>
+        <p class="section-sub">Can't find what you're looking for? <a href="#contact" style="color:var(--brand);font-weight:600;">Send us a message.</a></p>
+      </div>
+      <div class="faq__list">
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">What industries does BloomTech Solutions serve?</button>
+          <div class="faq__a" role="region">We partner with organizations across Healthcare &amp; Life Sciences, Financial Services, Retail &amp; E-Commerce, Manufacturing &amp; Supply Chain, Government, and Telecommunications — bringing deep domain knowledge alongside technical expertise to every engagement.</div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">How does staff augmentation work with BloomTech?</button>
+          <div class="faq__a" role="region">We embed pre-vetted IT professionals directly into your existing team, under your management. You get the exact skills you need on demand — without the overhead of permanent headcount. Engagements can run from a few weeks to multi-year programs depending on your goals.</div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">How quickly can BloomTech deploy resources?</button>
+          <div class="faq__a" role="region">For most skill profiles, we can present qualified candidates within 48–72 hours and have resources fully onboarded within 1–2 weeks.</div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">Do you support remote, onsite, and hybrid work models?</button>
+          <div class="faq__a" role="region">All three. We place professionals wherever your teams operate — fully remote, onsite at your facilities, or in a hybrid arrangement that suits your culture and workflow.</div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">How do you ensure the quality of your talent?</button>
+          <div class="faq__a" role="region">Every candidate goes through a multi-stage process: technical skills screening, live problem-solving assessments, background checks, and communication evaluation.</div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">What makes BloomTech different from other IT firms?</button>
+          <div class="faq__a" role="region">Beyond staffing, we bring genuine solution depth. Our consultants have shipped enterprise systems, led cloud migrations, and built data platforms at companies like Verizon, Toyota, and Fifth Third Bank. You're getting experienced practitioners — not just résumés.</div>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -500,14 +643,46 @@
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
   </a>
 
+  <!-- STICKY MOBILE CTA -->
+  <a href="#contact" id="mobileCta" class="mobile-cta" aria-label="Get Started">Get Started →</a>
+
   <script>
+    /* ── Page loader ── */
+    const pageLoader = document.getElementById('pageLoader');
+    window.addEventListener('load', () => {
+      setTimeout(() => pageLoader.classList.add('page-loader--hidden'), 1100);
+    });
+
     const nav       = document.getElementById('nav');
     const backToTop = document.getElementById('backToTop');
-    window.addEventListener('scroll', () => {
+    const mobileCta = document.getElementById('mobileCta');
+    const contactEl = document.getElementById('contact');
+
+    /* ── Active nav + scroll states ── */
+    const allSections = document.querySelectorAll('section[id]');
+    const navLinkMap  = {};
+    document.querySelectorAll('.nav__link[href^="#"]').forEach(l => {
+      navLinkMap[l.getAttribute('href').slice(1)] = l;
+    });
+    function updateScroll() {
       const y = window.scrollY;
       nav.classList.toggle('nav--scrolled', y > 60);
       backToTop.classList.toggle('back-to-top--visible', y > 500);
-    }, { passive: true });
+
+      /* active nav */
+      let current = '';
+      allSections.forEach(s => { if (s.offsetTop <= y + 140) current = s.id; });
+      Object.entries(navLinkMap).forEach(([id, link]) => {
+        link.classList.toggle('nav__link--active', id === current);
+      });
+
+      /* mobile CTA */
+      const pastHero    = y > window.innerHeight * 0.75;
+      const nearContact = contactEl && (y + window.innerHeight) > contactEl.offsetTop - 80;
+      mobileCta.classList.toggle('mobile-cta--visible', pastHero && !nearContact);
+    }
+    window.addEventListener('scroll', updateScroll, { passive: true });
+    updateScroll();
 
     /* ── Cookie consent ── */
     const cookieBanner  = document.getElementById('cookieBanner');
@@ -609,15 +784,43 @@
     }, { threshold: 0.7 });
     statEls.forEach(el => countObserver.observe(el));
 
-    /* ── Scroll-reveal ── */
-    const revealEls = document.querySelectorAll('.value-card, .process__step, .solution-card, .stat, .about__copy, .contact__info');
+    /* ── FAQ accordion ── */
+    document.querySelectorAll('.faq__q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item    = btn.parentElement;
+        const wasOpen = item.classList.contains('faq__item--open');
+        document.querySelectorAll('.faq__item--open').forEach(el => {
+          el.classList.remove('faq__item--open');
+          el.querySelector('.faq__q').setAttribute('aria-expanded', 'false');
+        });
+        if (!wasOpen) {
+          item.classList.add('faq__item--open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    /* ── Scroll-reveal with per-group stagger ── */
+    const revealEls = document.querySelectorAll('.value-card, .process__step, .solution-card, .stat, .about__copy, .contact__info, .industry-card, .faq__item');
     if ('IntersectionObserver' in window) {
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) { entry.target.classList.add('revealed'); observer.unobserve(entry.target); }
         });
-      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-      revealEls.forEach((el, i) => { el.classList.add('reveal'); el.style.transitionDelay = `${(i % 4) * 0.08}s`; observer.observe(el); });
+      }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+      /* stagger by position within each parent container */
+      const groupMap = new Map();
+      revealEls.forEach(el => {
+        const p = el.parentElement;
+        if (!groupMap.has(p)) groupMap.set(p, []);
+        groupMap.get(p).push(el);
+      });
+      revealEls.forEach(el => {
+        const idx = groupMap.get(el.parentElement).indexOf(el);
+        el.classList.add('reveal');
+        el.style.transitionDelay = `${idx * 0.1}s`;
+        observer.observe(el);
+      });
     } else {
       revealEls.forEach(el => el.classList.add('revealed'));
     }
